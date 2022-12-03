@@ -1,5 +1,5 @@
 
--- Creation of product table
+-- Creation of user_info table
 CREATE TABLE IF NOT EXISTS user_info (
   id SERIAL PRIMARY KEY,
   name varchar(250) NOT NULL,

@@ -71,7 +71,7 @@ def login(username,password):
             if hashPassword == user[2]:
                 print(pyfiglet.figlet_format("Login success"))
             else:
-                print("Wrong Username & Password")
+                print(pyfiglet.figlet_format("Wrong Username & Password"))
 def main():
     print(pyfiglet.figlet_format("Register System"))
     option = -1
